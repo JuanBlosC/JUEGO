@@ -7,7 +7,7 @@ function operacion(){
     if (n1==1||n1==2){
         var rta='Incorrecto, juzgaste mal'
     }
-    if (n1!=1||n1!=2||n1!=3){
+    if (n1!=1&&n1!=2&&n1!=3){
         var rta='Ingresa una de las opciones validas'
     }
     resul1=document.getElementById("resultado1");
